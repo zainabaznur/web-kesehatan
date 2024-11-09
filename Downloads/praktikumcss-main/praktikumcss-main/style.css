@@ -1,0 +1,33 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+#header {
+    background-color: orange;
+    height: 125px;
+    padding: 10px;
+}
+
+.desk {
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin: 40px;
+}
+
+.menu a {
+    margin-left: 150px;
+}
+
+.menu a:hover {
+    font-weight: bold;
+    color: red;
+}
+
+.isi::first-letter {
+    color: blue;
+    font-size: 40px;
+}
