@@ -1,0 +1,36 @@
+    <!-- Tambahkan link ke AdminLTE CSS jika belum ada -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.1.0/dist/css/adminlte.min.css">
+
+<style>
+  .mt-10 {
+    position: relative;
+  }
+
+  /* Tombol Konsultasi di kanan bawah */
+  .btn-consultation {
+    position: fixed;
+    right: 20px; /* Jarak dari kanan */
+    bottom: 30px; /* Jarak dari bawah */
+    background-color: #007bff; /* Warna biru pada tombol */
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 50px; /* Bentuk bulat */
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+  }
+
+  .btn-consultation:hover {
+    background-color: transparent;
+    border-color: #007bff;
+    color: #007bff;
+  }
+</style>
+
+<!-- Tombol Konsultasi -->
+<div class="mt-10">
+  <a href="/beranda" class="btn-consultation">
+    Kembali
+  </a>
+</div>
