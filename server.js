@@ -43,6 +43,10 @@ app.get('/timmedis', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'timmedis.html'));  
 });
 
+app.get('/informasi', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'informasi.html')); 
+});
+
 // Route to handle form submission (Registration)
 app.post('/daftar', (req, res) => {
   const { nama, tempat_lahir, tanggal_lahir, kelurahan, gender, nik, telpon, riwayat_penyakit } = req.body;
