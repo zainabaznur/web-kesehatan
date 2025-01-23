@@ -47,6 +47,10 @@ app.get('/medis', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'pegawai.html')); 
 });
 
+app.get('/poliklinik', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'poliklinik.html')); 
+});
+
 // Route to handle form submission (Registration)
 app.post('/daftar', (req, res) => {
   const { nama, tempat_lahir, tanggal_lahir, kelurahan, gender, nik, telpon, riwayat_penyakit } = req.body;
