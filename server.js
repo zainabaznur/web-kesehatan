@@ -27,18 +27,6 @@ app.get('/beranda', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'index.html')); 
 });
 
-app.get('/informasi', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'informasi.html')); 
-});
-
-app.get('/medis', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'pegawai.html')); 
-});
-
-app.get('/poliklinik', (req, res) => {
-  res.sendFile(path.join(__dirname, 'views', 'poliklinik.html')); 
-});
-
 app.get('/daftar', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'daftar.html'));  
 });
