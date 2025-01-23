@@ -50,6 +50,10 @@ app.get('/medis', (req, res) => {
 app.get('/poliklinik', (req, res) => {
   res.sendFile(path.join(__dirname, 'views', 'poliklinik.html')); 
 });
+  
+app.get('/informasi', (req, res) => {
+  res.sendFile(path.join(__dirname, 'views', 'informasi.html')); 
+});
 
 // Route to handle form submission (Registration)
 app.post('/daftar', (req, res) => {
